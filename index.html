@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kim's portfolio</title>
+  <meta name="description" content="portfolio for world-renowed software engineer YYZA">
+  <meta name="author" content="YYZA">
+  <link rel="icon" type="image/png" href="image/logo.png" />
+  <script 
+    src="https://kit.fontawesome.com/27f9717bfd.js" 
+    crossorigin="anonymous">
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=East+Sea+Dokdo&family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer>
+  </script>
+</head>
+<body>
+  <section id="navbar">
+    <div class="navbar__logo">
+      <a href="#">
+        <img src="image/logo.png" alt="YYlogo">
+      </a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item" data-link="#home" >Home</li>
+      <li class="navbar__menu__item" data-link="#about" >About</li>
+      <li class="navbar__menu__item" data-link="#skills">Skills</li>
+      <li class="navbar__menu__item" data-link="#work">Work</li>
+      <li class="navbar__menu__item" data-link="#contact">Contact</li>
+    </ul>
+
+    <button class="toggleBtn">
+      <i class="fas fa-angle-down"></i>
+    </button>
+  </section>
+
+  <section id="home">
+    <div class="home__container">
+      <div class="home__avartar">
+        <img src="image/logo.png" alt="avatar" >
+      </div>
+      <h1 class="home__title">welcome,<br>This is Kim's personal website</h1>
+      <h2 class="home__discription">Towerds my dream. Front-end devaeloper.</h2>
+      <button class="home__contact">Contact me</button>
+    </div>
+  </section>
+  <section id="about" class="section section__container">
+    <h1>About me</h1>
+    <p>저는 현재 생계 유지를 위해서 '반응형 홈페이지' 는 완벽하게 만들수 있는 웹퍼블리셔가 최소 목표이고, 
+        더 나아가선 프론트엔드 개발자 (백엔드는 그 이후에 생각하려고 합니다)를 생각하고 있습니다.
+    </p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <h2 class="major__title">HTMl, CSS
+        </h2>
+        <p class="major__discription">
+          빠른 마크업, 시멘틱 태그, <br>
+          FlexBox, Grid
+        </p>
+      </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h2 class="major__title">JSP</h2>
+          <p class="major__discription">DOM APIs, Web APIs</p>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <h2 class="major__title">React</h2>
+          <p class="major__discription">여러가지의 프레임워크 사용</p>
+        </div>
+    </div>
+    <div class="eudcation">
+      <img class= "education__logo" src="image/111.png" alt="edulogo">
+      <div class="education__discription">
+        <p class="education__name">Drean Conding Ellie</p>
+        <p class="education__period">2021.10.01 ~ Until now</p>
+      </div>
+    </div>
+
+  </section>
+  <section id="skills" class="section section__container">
+    <h1>Skills</h1>
+    <h2>Skills & Attributes</h2>
+    <p>전체적인 소프트 라이프 사이클에 대해서 전부 관심이 있고, 새로운것을 배우는거에 대한 거부감이 없습니다. 그리고 팀환경에서 일하거나 개인적인 일도 가능합니다. 스트레스에도 강합니다.</p>
+    <div class="skills__top">
+      <h3 class="skills__top__title">Skills</h3>
+      <div class="skill">
+        <div class="skill__discription">
+          <span>HTML</span>
+          <span>90%</span>
+        </div>
+        <div class="skill__var">
+          <div class="skill__var__value" style="width: 90%;"></div>
+        </div>
+        <div class="skill__discription">
+          <span>CSS</span>
+          <span>80%</span>
+        </div>
+        <div class="skill__var">
+          <div class="skill__var__value" style="width: 80%;"></div>
+        </div>
+        <div class="skill__discription">
+          <span>javaScript</span>
+          <span>85%</span>
+        </div>
+        <div class="skill__var">
+          <div class="skill__var__value" style="width: 85%;"></div>
+        </div>
+        <div class="skill__discription">
+          <span>TypeScript</span>
+          <span>80%</span>
+        </div>
+        <div class="skill__var">
+          <div class="skill__var__value" style="width: 80%;"></div>
+        </div>
+        <div class="skill__discription">
+          <span>React</span>
+          <span>90%</span>
+        </div>
+        <div class="skill__var">
+          <div class="skill__var__value" style="width: 90%;"></div>
+        </div>
+        <div class="skill__discription">
+          <span>Node.js</span>
+          <span>70%</span>
+        </div>
+        <div class="skill__var">
+          <div class="skill__var__value" style="width: 70%;"></div>
+        </div>
+      </div>
+    </div>
+      <div class="tools">
+        <h3 class="skills__top__title">Tools</h3>
+        <hr>
+        <ul class="tools__list">
+          <li><span>Visual Studio Code</span></li>
+          <li><span>IntelliJ</span></li>
+          <li><span>Android Studio code</span></li>
+          <li><span>iOS development tools</span></li>
+          <li><span>Sketch app</span></li>
+        </ul> 
+      </div>
+      <div class="etc">
+        <h3 class="skills__top__title">Etc</h3>
+        <hr>
+        <ul class="etc__list">
+          <li><span>Git</span></li>
+          <li><span>Scrum Master</span></li>
+          <li><span>Math</span></li>
+        </ul> 
+      </div>
+    
+  </section>
+  <section id="work" class="section section__container">
+    <h1>My work</h1>
+    <h2>Projects</h2>
+    <div class="work__categories">
+      <button class="category__btn" data-filter="*">ALL</button>
+      <button class="category__btn" data-filter="front-end">Front-end</button>
+      <button class="category__btn" data-filter="back-end">Back-end</button>
+      <button class="category__btn" data-filter="mobile">Mobile</button>
+    </div>
+    <div class="work__projects">
+      <a 
+      href="https://github.com/YYZA/Yyzaportfolio"
+      class="project"
+      target="blank"
+      data-type="front-end"
+      >
+      <img src="image/projects/project1.png" alt="project">
+      <div class="project__discription">
+        <h3>Youtube Site</h3>
+        <hr>
+        <span>Clone Coding with HTML and CSS</span>
+      </div>
+      </a>
+      <a 
+      href="https://github.com/YYZA/Yyzaportfolio"
+      class="project"
+      target="blank"
+      data-type="front-end"
+      >
+      <img src="image/projects/project2.png" alt="project">
+      <div class="project__discription">
+        <h3>Responsive Navbar</h3>
+        <hr>
+        <span>HTML,CSS with media query</span>
+      </div>
+    </a>
+    <a 
+      href="https://github.com/YYZA/Yyzaportfolio"
+      class="project"
+      target="blank"
+      data-type="front-end"
+    >
+    <img src="image/projects/project3.png" alt="project">
+    <div class="project__discription">
+      <h3>Shopping mall game</h3>
+      <hr>
+      <span>HTML, CSS, javaScript, Json</span>  
+    </div>
+    </a>
+    <a 
+      href="https://github.com/YYZA/Yyzaportfolio"
+      class="project"
+      target="blank"
+      data-type="back-end"
+    >
+    <img src="image/projects/project4.png" alt="project">
+    <div class="project__discription">
+      <h3>Project</h3>
+      <hr>
+      <span>Explanation</span>
+    </div>
+    </a>
+    <a 
+      href="https://github.com/YYZA/Yyzaportfolio"
+      class="project"
+      target="blank"
+      data-type="back-end"
+    >
+    <img src="image/projects/project5.png" alt="project">
+    <div class="project__discription">
+      <h3>Project</h3>
+      <hr>
+      <span>Explanation</span>
+    </div>
+    </a>
+    <a 
+      href="https://github.com/YYZA/Yyzaportfolio"
+      class="project"
+      target="blank"
+      data-type="back-end"
+    >
+    <img src="image/projects/project6.png" alt="project">
+    <div class="project__discription">
+      <h3>Project</h3>
+      <hr>
+      <span>Explanation</span>
+    </div>
+    </a>
+    <a 
+      href="https://github.com/YYZA/Yyzaportfolio"
+      class="project"
+      target="blank"
+      data-type="mobile"
+    >
+    <img src="image/projects/project7.png" alt="project">
+    <div class="project__discription">
+      <h3>Project</h3>
+      <hr>
+      <span>Explanation</span>
+    </div>
+    </a>
+    <a 
+      href="https://github.com/YYZA/Yyzaportfolio"
+      class="project"
+      target="blank"
+      data-type="mobile"
+    >
+    <img src="image/projects/project8.png" alt="project">
+    <div class="project__discription">
+      <h3>Project</h3>
+      <hr>
+      <span>Explanation</span>
+    </div>
+    </a>
+  </div>
+  </section>
+  <section id="contact" class="section">
+    <h1 class="contact__title">Let's talk</h1>
+    <h2 class="contact__email">dragon2castle@naver.com</h2>
+    <div class="contact__icon">
+      <a href="https://github.com/YYZA/Yyzaportfolio" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="#" target="_blank">
+        <i class="fab fa-invision"></i>
+      </a>
+    </div>
+    <p class="contact__rights">
+      2020 Dream Coding YYZA - All rights reserved
+    </p>
+  </section>
+</body>
+</html>
