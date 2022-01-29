@@ -234,14 +234,14 @@ button {
   color: dark var(--color-light-grey);
 }
 
-.eudcation {
+.education {
   display: flex;
   justify-content: center;
   margin-right: 90px;
   margin-top: 50px;
 }
 
-.eudcation img {
+.education img {
   margin: 15px 10px 0px 30px;
   width: 100px;
   height: 50px;
@@ -411,6 +411,9 @@ button {
     --font-small: 14px;
     --font-micro: 12px;
   }
+  p {
+    font-size: 14px;
+  }
 
   .section__container {
     padding: 16px;
@@ -418,6 +421,18 @@ button {
 
   .about__majors {
     flex-direction: column;
+  }
+  .education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+  }
+  .education img {
+    margin: 10px 0px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
   }
 
   body {
