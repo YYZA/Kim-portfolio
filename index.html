@@ -25,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
     <script src="main.js" defer>
     </script>
 </head>
@@ -51,7 +52,7 @@
 <section id="home">
     <div class="home__container">
         <div class="home__avartar">
-            <img src="image/logo.png" alt="avatar">
+            <img src="image/profile.jpg" alt="avatar">
         </div>
         <h1 class="home__title">welcome,<br>This is Kim's personal website</h1>
         <h2 class="home__discription">Towerds my dream. Front-end devaeloper.</h2>
@@ -60,8 +61,7 @@
 </section>
 <section id="about" class="section section__container">
     <h1>About me</h1>
-    <p>저는 현재 생계 유지를 위해서 '반응형 홈페이지' 는 완벽하게 만들수 있는 웹퍼블리셔가 최소 목표이고,
-        더 나아가선 프론트엔드 개발자 (백엔드는 그 이후에 생각하려고 합니다)를 생각하고 있습니다.
+    <p>주니어 프론트엔드 엔지니어로 React와 AWS, Github을 이용하여 프로젝트를 설계부터 배포, 운영까지 해온 경험을 가지고 있습니다. 비전공자이지만 개발 프로세스와 개발 문화에 관심이 많아 개선 하기 위해 많은 노력을 합니다. 새로운 기술과 트렌드를 익히고 팀에 소개하는 것을 좋아합니다.
     </p>
     <div class="about__majors">
         <div class="major">
@@ -91,10 +91,15 @@
         </div>
     </div>
     <div class="eudcation">
-        <img class="education__logo" src="image/111.png" alt="edulogo">
+        <img  class="education__logo" src="image/111.png" alt="edulogo">
         <div class="education__discription">
             <p class="education__name">Drean Conding Ellie</p>
-            <p class="education__period">2021.10.01 ~ Until now</p>
+            <p class="education__period">2021.09.01 ~ 2021.11.01</p>
+        </div>
+        <img class="education__logo" src="image/hanghae.jpg" alt="edulogo">
+        <div class="education__discription">
+            <p class="education__name">항해 99 부트캠프</p>
+            <p class="education__period">2021.11.01 ~ 2021.02.08</p>
         </div>
     </div>
 
@@ -142,10 +147,9 @@
         <hr>
         <ul class="tools__list">
             <li><span>Visual Studio Code</span></li>
-            <li><span>IntelliJ</span></li>
-            <li><span>Android Studio code</span></li>
-            <li><span>iOS development tools</span></li>
-            <li><span>Sketch app</span></li>
+            <li><span>Axios</span></li>
+            <li><span>Redux</span></li>
+            <li><span>Style-Components</span></li>
         </ul>
     </div>
     <div class="etc">
@@ -153,8 +157,7 @@
         <hr>
         <ul class="etc__list">
             <li><span>Git</span></li>
-            <li><span>Scrum Master</span></li>
-            <li><span>Math</span></li>
+            <li><span>Slack</span></li>
         </ul>
     </div>
 
@@ -163,114 +166,60 @@
     <h1>My work</h1>
     <h2>Projects</h2>
     <div class="work__categories">
-        <button class="category__btn" data-filter="*">ALL</button>
+        
         <button class="category__btn" data-filter="front-end">Front-end</button>
-        <button class="category__btn" data-filter="back-end">Back-end</button>
-        <button class="category__btn" data-filter="mobile">Mobile</button>
     </div>
     <div class="work__projects">
         <a
-                href="https://github.com/YYZA/Yyzaportfolio"
+                href="https://github.com/YYZA/5_FE_Insta_CloneCoding.git"
                 class="project"
                 target="blank"
                 data-type="front-end"
         >
-            <img src="image/projects/project1.png" alt="project">
+            <img src="image/instar.jpg" alt="project">
             <div class="project__discription">
-                <h3>Youtube Site</h3>
+                <h3>Instargram</h3>
                 <hr>
-                <span>Clone Coding with HTML and CSS</span>
+                <span>Clone Coding with React.js</span>
             </div>
         </a>
         <a
-                href="https://github.com/YYZA/Yyzaportfolio"
+                href="https://github.com/team-voice-project/frontend.git"
                 class="project"
                 target="blank"
                 data-type="front-end"
         >
-            <img src="image/projects/project2.png" alt="project">
+            <img style="border-radius: 20px" src="image/projects/oao.png" alt="project">
             <div class="project__discription">
-                <h3>Responsive Navbar</h3>
+                <h3>OAO-Project</h3>
                 <hr>
-                <span>HTML,CSS with media query</span>
+                <span>React.js,AWS,node.js</span>
             </div>
         </a>
         <a
-                href="https://github.com/YYZA/Yyzaportfolio"
+                href="https://github.com/YYZA/sout-FrontEnd.git"
                 class="project"
                 target="blank"
                 data-type="front-end"
         >
-            <img src="image/projects/project3.png" alt="project">
+            <img style="border-radius: 10px" src="image/projects/sout.png" alt="project">
             <div class="project__discription">
-                <h3>Shopping mall game</h3>
+                <h3>S-out Project</h3>
                 <hr>
-                <span>HTML, CSS, javaScript, Json</span>
+                <span>React,AWS,Springboot</span>
             </div>
         </a>
         <a
-                href="https://github.com/YYZA/Yyzaportfolio"
+                href="https://github.com/YYZA/sparta-miniproject.git"
                 class="project"
                 target="blank"
-                data-type="back-end"
+                data-type="front-end"
         >
-            <img src="image/projects/project4.png" alt="project">
+            <img style="border-radius: 10px" src="image/projects/whoisdog.png" alt="project">
             <div class="project__discription">
-                <h3>Project</h3>
+                <h3>WhoisDog?</h3>
                 <hr>
-                <span>Explanation</span>
-            </div>
-        </a>
-        <a
-                href="https://github.com/YYZA/Yyzaportfolio"
-                class="project"
-                target="blank"
-                data-type="back-end"
-        >
-            <img src="image/projects/project5.png" alt="project">
-            <div class="project__discription">
-                <h3>Project</h3>
-                <hr>
-                <span>Explanation</span>
-            </div>
-        </a>
-        <a
-                href="https://github.com/YYZA/Yyzaportfolio"
-                class="project"
-                target="blank"
-                data-type="back-end"
-        >
-            <img src="image/projects/project6.png" alt="project">
-            <div class="project__discription">
-                <h3>Project</h3>
-                <hr>
-                <span>Explanation</span>
-            </div>
-        </a>
-        <a
-                href="https://github.com/YYZA/Yyzaportfolio"
-                class="project"
-                target="blank"
-                data-type="mobile"
-        >
-            <img src="image/projects/project7.png" alt="project">
-            <div class="project__discription">
-                <h3>Project</h3>
-                <hr>
-                <span>Explanation</span>
-            </div>
-        </a>
-        <a
-                href="https://github.com/YYZA/Yyzaportfolio"
-                class="project"
-                target="blank"
-                data-type="mobile"
-        >
-            <img src="image/projects/project8.png" alt="project">
-            <div class="project__discription">
-                <h3>Project</h3>
-                <hr>
-                <span>Explanation</span>
+                <span>python,Ajax</span>
             </div>
         </a>
     </div>
@@ -279,7 +228,7 @@
     <h1 class="contact__title">Let's talk</h1>
     <h2 class="contact__email">dragon2castle@naver.com</h2>
     <div class="contact__icon">
-        <a href="https://github.com/YYZA/Yyzaportfolio" target="_blank">
+        <a href="https://github.com/YYZA" target="_blank">
             <i class="fab fa-github"></i>
         </a>
         <a href="#" target="_blank">
@@ -287,7 +236,7 @@
         </a>
     </div>
     <p class="contact__rights">
-        2020 Dream Coding YYZA - All rights reserved
+        2020  YYZA - All rights reserved
     </p>
 </section>
 </body>

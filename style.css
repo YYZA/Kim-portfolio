@@ -64,8 +64,7 @@ p {
   font-size: var(--font-medium);
   font-weight: var(--weight-regular);
   color: var(--color-black);
-  font-family: "East Sea Dokdo", cursive;
-  font-family: "Nanum Brush Script", cursive;
+  font-family: "Noto Sans KR", sans-serif;
   margin: 4px 0;
 }
 
@@ -171,15 +170,16 @@ button {
 .home__avartar {
   margin: auto;
   margin-bottom: 20px;
-  width: 250px;
-  height: 250px;
+  width: 245px;
+  height: 245px;
   border-radius: 50%;
   border: 2px solid var(--color-orange);
 }
 
 .home__avartar img {
   width: 240px;
-  margin-top: 70px;
+  height: 240px;
+  border-radius: 50%;
 }
 
 .home__title,
@@ -241,9 +241,10 @@ button {
 }
 
 .eudcation img {
-  margin-top: 15px;
+  margin: 15px 10px 0px 30px;
   width: 100px;
   height: 50px;
+  border-radius: 20px;
 }
 
 #skills {
