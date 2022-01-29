@@ -66,6 +66,7 @@ p {
   color: var(--color-black);
   font-family: "Noto Sans KR", sans-serif;
   margin: 4px 0;
+  font-size: 24px;
 }
 
 body {
