@@ -267,6 +267,7 @@ button {
 
 .skill__discription {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 10px;
   margin-bottom: 10px;
